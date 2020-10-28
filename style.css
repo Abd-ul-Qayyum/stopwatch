@@ -49,7 +49,10 @@ nav li a{
         font-size: 14px;
     }
 } */
-*{
+
+
+
+/* *{
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -98,4 +101,41 @@ a{
     a{
         font-size: 24px;
     }
+} */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: hotpink;
+  
+    border: 2px solid;
+    border-radius: 50%;
+}
+div input{
+    width: 30px;
+    /* margin: 4px; */
+    text-align: center;
+    font-weight: bold;
+}
+div{
+    width: 150px;
+    margin: 0 auto;
+}
+div button{
+    width: 70px;
+    /* margin: 0 auto; */
 }

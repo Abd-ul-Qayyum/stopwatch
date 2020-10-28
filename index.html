@@ -7,9 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" name="stopwatch" id="sw" placeholder="0">
-    <button onclick="timer()"> Start </button>
-    <button onclick="stoper()">Stop</button>
+    <div class="circle">
+        <input type="text" placeholder="00" name="" id="minu">
+        <input type="text" placeholder="00" name="" id="sec">
+        <input type="text" placeholder="00" name="" id="mili">
+    </div>
+    <div>
+        <button onclick="stopvalu()" id="stp">START</button>
+        <button onclick="clearall()">CLEAR</button>
+    </div>
+
 </body>
 <script src="app.js"></script>
+<!-- <script src="sw.js"></script> -->
 </html>
